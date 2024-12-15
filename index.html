@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="js/main.js" defer></script>
+
+
+    <title>JSFO-december 2024 NADJIB AMOKRANE EXAMINATION</title>
+</head>
+
+<body id="wrapper">
+    <header class="mainpage__header">
+        <h1 class="mainpage__title">Solsystemet</h1>
+        <h2 class="mainpage__subtitle">Solaris</h2>
+
+    </header>
+
+
+    <!-- TODO: 1:PLANETER 
+               2:OMKRETS 
+               3:KM 
+               4:MAX TEMP
+               5:MIN TEMP
+               6:SEMTIC
+    
+    
+    -->
+
+
+
+    <main class="solar-system">
+
+        <figure alt="Merkurius" class="solar-system__planet mercury"></figure>
+        <figure alt="Venus" class="solar-system__planet venus"></figure>
+        <figure alt="Jorden" class="solar-system__planet earth"></figure>
+        <figure alt="Mars" class="solar-system__planet mars"></figure>
+        <figure alt="Jupiter" class="solar-system__planet jupiter"></figure>
+        <figure alt="Saturnus" class="solar-system__planet saturn">
+            <div class="saturn-ring"></div>
+        </figure>
+        <figure alt="Uranus" class="solar-system__planet uranus"></figure>
+        <figure alt="Neptunus" class="solar-system__planet neptune"></figure>
+
+    </main>
+
+    <aside class="mainpage__aside">
+
+        <figure class="sun-slice"></figure>
+
+    </aside>
+    <section class="overlay hidden">
+
+        <header class="overlay__header">
+
+            <h1 class="overlay__title"></h1>
+
+            <h2 class="overlay__subtitle"></h2>
+
+        </header>
+
+        <section>
+
+            <p class="overlay__pl-desc"></p>
+
+        </section>
+
+        <figure class="overlay__line"></figure>
+
+        <section class="overlay__stat-grid">
+
+            <section>
+                <h3 class="overlay__section-title">Omkrets</h3>
+                <p class="overlay__pl-circ"></p>
+            </section>
+
+            <section>
+                <h3 class="overlay__section-title">Km från Solen</h3>
+                <p class="overlay__pl-dist"></p>
+            </section>
+
+            <section>
+                <h3 class="overlay__section-title">Max temperatur</h3>
+                <p class="overlay__pl-max-temp"></p>
+            </section>
+
+            <section>
+                <h3 class="overlay__section-title">Min temperatur</h3>
+                <p class="overlay__pl-min-temp"></p>
+            </section>
+
+        </section>
+
+        <figure class="overlay__line"></figure>
+
+        <section class="overlay__moons">
+            <h3 class="overlay__section-title">Månar</h3>
+            <ul class="overlay__moons-list"></ul>
+        </section>
+
+        <aside class="overlay__aside">
+
+            <figure class="pl-slice">
+
+                <figure class="pl-slice__layer pl-slice__layer--outer"></figure>
+                <figure class="pl-slice__layer pl-slice__layer--inner"></figure>
+                <figure class="pl-slice__layer pl-slice__layer--middle"></figure>
+
+            </figure>
+
+        </aside>
+    </section>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
